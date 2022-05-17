@@ -17,7 +17,7 @@ public class EvenIndexPositionWordsUpperCase {
                 out+= strArray[i]+" ";
             }
         }
-        System.out.println(out);
+        System.out.println(out.trim());
 
     }
 }

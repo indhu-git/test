@@ -8,10 +8,18 @@ public class ConstructorOverloading {
 
 
     public ConstructorOverloading(){
-        this("indhu");
+
+        //this("indhu");
+    }
+    public ConstructorOverloading(int a, int b){
+        //this();
     }
 
-    public ConstructorOverloading(String name){
-        new ConstructorOverloading();
+   // public ConstructorOverloading(String name){
+     //   this(1, 2);
+    //}
+
+    public static void main(String[] args) {
+        new ConstructorOverloading(1, 2);
     }
 }

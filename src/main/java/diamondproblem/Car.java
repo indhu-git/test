@@ -9,8 +9,10 @@ public class Car implements Vehicle, Alarm {
 
     @Override
     public void mirror() {
-
+        Alarm.super.turnOnAlarm();
     }
+
+
 
     //In Java, the diamond problem is related to multiple inheritance. Sometimes it is also known as the deadly diamond problem or deadly diamond of death.
     //If Two interface has same methods 
